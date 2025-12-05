@@ -1,16 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Proof That I Created BYTECLAN V1</title>
-  <style>
-    body { font-family: Verdana, sans-serif; background-color: #f4f4f4; color: #222; padding: 30px; }
-    h1 { color: #333; }
-    ul { line-height: 1.8; }
-    code { background-color: #eee; padding: 2px 4px; border-radius: 4px; }
-  </style>
-</head>
-<body>
   <h1>Proof That I Created BYTECLAN V1</h1>
   <ul>
     <li>The original repository is published under my GitHub account: <strong>MiguelCriadorDeScript</strong>.</li>
