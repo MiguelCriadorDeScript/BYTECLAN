@@ -1,3 +1,6 @@
+--By ByteBandit_ofici
+--Thank you for using BYTECLAN(^_^)v
+
 local Players = game:GetService("Players")
 local Player = Players.LocalPlayer
 local PlayerGui = Player:WaitForChild("PlayerGui")
@@ -1671,3 +1674,4 @@ function FunctionManager:getFunctionsInCategory(category)
 end
 updateGrid()
 Notify("ByteClan loaded successfully!", "System", 3)
+Print("LOADED BYTECLAN")
