@@ -343,9 +343,9 @@ end
 local logo = Instance.new("ImageLabel")
 logo.Name                 = generate_string(math_random(1, 10))
 logo.BackgroundTransparency = 1
-logo.Size                 = UDim2.new(1, 0, 0, 100)
-logo.Position             = UDim2.new(0, -50, 0, -100)
-logo.Image                = "rbxassetid://97559095182827"
+logo.Size                 = UDim2.new(1, 0, 0, 80)
+logo.Position             = UDim2.new(0, -100, 0, -80)
+logo.Image                = "rbxassetid://94403382997032"
 logo.ScaleType            = Enum.ScaleType.Fit              
 logo.Parent               = mainFrame
 leftCat.MouseButton1Click:Connect(function()
@@ -1672,6 +1672,40 @@ end, "Troll", "Advanced orbit")
 function FunctionManager:getFunctionsInCategory(category)
 	return self.CategorizedFunctions[category] or {}
 end
+FunctionManager:register("EMOTE FREE", function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/7yd7/Hub/refs/heads/Branch/GUIS/Emotes.lua"))()
+end, "Troll", "Free emotes, just press '.'")
+FunctionManager:register("GOD MOD", function()
+	loadstring(game:HttpGet("https://rawscripts.net/raw/Natural-Disaster-Survival-NATURAL-DISASTER-GOD-MODE-200705"))()
+end, "Troll", "You get infinite lives, but it only works in Natural Disasters (game).")
+FunctionManager:register("INVICIBLE FLY", function()
+	local UserInputService = game:GetService("UserInputService")
+
+	local isMobile = UserInputService.TouchEnabled and not UserInputService.KeyboardEnabled
+
+	if isMobile then
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/396abc/Script/refs/heads/main/MobileFly.lua"))()
+	else
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/396abc/Script/refs/heads/main/FlyR15.lua"))()
+	end
+end, "Movement", "Become invincible, but you can only fly.")
+FunctionManager:register("Script Bart", function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/MiguelCriadorDeScript/Script-Bart/refs/heads/main/Menu.lua"))()
+end, "Troll", "This script is OP, for You Vs Homer (game).")
 updateGrid()
 Notify("ByteClan loaded successfully!", "System", 3)
-Print("LOADED BYTECLAN")
+print("░▀█▀░█░█░▄▀█░█▄░█░█▄▀")
+print("░░█░░█▀█░█▀█░█░▀█░█░█")
+print("░░░░░░░░░░░░░░░░░░░░░")
+print("░█▄█░█▀█░█░█")
+print("░░█░░█▄█░█▄█")
+print("░░░░░░░░░░░░")
+print("░█▀▀░█▀█░█▀█")
+print("░█▀░░█▄█░█▀▄")
+print("░░░░░░░░░░░░")
+print("░█░█░█▀░█░█▄░█░█▀▀")
+print("░█▄█░▄█░█░█░▀█░█▄█")
+print("░░░░░░░░░░░░░░░░░░")
+print("░█▄▄░█▄█░▀█▀░█▀▀░█▀▀░█░░░▄▀█░█▄░█.")
+print("░█▄█░░█░░░█░░██▄░█▄▄░█▄▄░█▀█░█░▀█.")
+print("░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░.")
