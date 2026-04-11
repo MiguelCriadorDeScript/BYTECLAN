@@ -345,7 +345,7 @@ logo.Name                 = generate_string(math_random(1, 10))
 logo.BackgroundTransparency = 1
 logo.Size                 = UDim2.new(1, 0, 0, 100)
 logo.Position             = UDim2.new(0, -50, 0, -100)
-logo.Image                = "rbxassetid://126949284932250"
+logo.Image                = "rbxassetid://97559095182827"
 logo.ScaleType            = Enum.ScaleType.Fit              
 logo.Parent               = mainFrame
 leftCat.MouseButton1Click:Connect(function()
