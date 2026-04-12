@@ -200,7 +200,7 @@ local titleLabel = Instance.new("TextLabel", titleBar)
 titleLabel.Size           = UDim2.new(1,-60,1,0)
 titleLabel.Position       = UDim2.new(0,4,0,0)
 titleLabel.BackgroundTransparency = 1
-titleLabel.Text           = "BYTECLAN V10.5"
+titleLabel.Text           = "BYTECLAN V10.6"
 titleLabel.Font           = Enum.Font.SourceSansBold
 titleLabel.TextSize       = 18
 titleLabel.TextColor3     = Color3.new(1,1,1)
@@ -1581,6 +1581,7 @@ FunctionManager:register("Bind Key", function()
 	closeBtn.Parent = panel
 	closeBtn.MouseButton1Click:Connect(function()
 		bindFrame:Destroy()
+
 		bindFrame = nil
 		if bindConn then bindConn:Disconnect(); bindConn = nil end
 	end)
@@ -1692,6 +1693,9 @@ end, "Movement", "Become invincible, but you can only fly.")
 FunctionManager:register("Script Bart", function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/MiguelCriadorDeScript/Script-Bart/refs/heads/main/Menu.lua"))()
 end, "Troll", "This script is OP, for You Vs Homer (game).")
+FunctionManager:register("Kick Fling", function()
+	loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-kick-fling-177615"))()
+end, "Trolling", "Hit the players and make them get flinged.")
 updateGrid()
 Notify("ByteClan loaded successfully!", "System", 3)
 print("░▀█▀░█░█░▄▀█░█▄░█░█▄▀")
